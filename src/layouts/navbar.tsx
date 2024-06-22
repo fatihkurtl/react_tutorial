@@ -35,7 +35,7 @@ const Navbar = () => {
             </Link>
           )}
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center mx-auto">
           <h2 className="text-white text-lg font-semibold">
             {import.meta.env.VITE_APP_MODE}
           </h2>
