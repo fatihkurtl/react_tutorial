@@ -35,6 +35,11 @@ const Navbar = () => {
             </Link>
           )}
         </div>
+        <div className="flex items-center">
+          <h2 className="text-white text-lg font-semibold">
+            {import.meta.env.VITE_APP_MODE}
+          </h2>
+        </div>
         <div className="flex items-center justify-end ml-auto">
           <button
             onClick={toggleDarkMode}
